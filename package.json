@@ -13,6 +13,7 @@
   },
   "scripts": {
     "tsc": "tsc",
-    "prod": "tsc && node ./build/app.js"
+    "prod": "tsc && node ./build/app.js",
+    "start": "node ./build/app.js"
   }
 }
