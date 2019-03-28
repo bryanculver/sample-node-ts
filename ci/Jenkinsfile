@@ -4,6 +4,11 @@ pipeline {
   tools {nodejs "node"}
 
   stages {
+    stage('Evaluate Stage') {
+      steps {
+        sh 'ls'
+      }
+    }
 
     stage('Cloning Git') {
       steps {
